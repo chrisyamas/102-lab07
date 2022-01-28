@@ -11,7 +11,7 @@ function promptCatScale() {
       response = 'Oh heck yeah! You\'re in the right place, my friend!';
     } else if (cScale > 5) {
       response = 'Alright, I don\'t love it but I respect you!';
-    } else if (cScale >= 0) {
+    } else if (cScale > 0) {
       response = 'Um...who hurt you? You probably have an anxious attachment style.';
     }
   
